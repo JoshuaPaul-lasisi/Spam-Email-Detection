@@ -44,4 +44,4 @@ def evaluate_models(data_path, models_dir, reports_dir):
             f.write(report)
 
 if __name__ == "__main__":
-    evaluate_models('data/processed/spam_data_processed.csv', 'models/', 'reports/images/')
+    evaluate_models('../data/processed/spam_data_processed.csv', '../models/', '../reports/images/')

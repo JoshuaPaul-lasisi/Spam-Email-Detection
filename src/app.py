@@ -4,11 +4,11 @@ import joblib
 # Load the models and vectorizer
 @st.cache_resource
 def load_model(model_name):
-    return joblib.load(f"models/{model_name}.pkl")
+    return joblib.load(f"../models/{model_name}.pkl")
 
 @st.cache_resource
 def load_vectorizer():
-    return joblib.load("models/vectorizer.pkl")
+    return joblib.load("../models/vectorizer.pkl")
 
 # Title
 st.title("Spam Email Classifier")

@@ -27,4 +27,4 @@ def load_and_preprocess_data(input_path, output_path):
     print(f"Processed data saved to {output_path}")
 
 if __name__ == "__main__":
-    load_and_preprocess_data('data/raw/spam_data.csv', 'data/processed/spam_data_processed.csv')
+    load_and_preprocess_data('../data/raw/spam.csv', '../data/processed/spam_data_processed.csv')

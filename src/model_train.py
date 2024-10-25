@@ -57,4 +57,4 @@ def train_and_save_models(data_path, models_dir):
     print(f"Vectorizer saved to {vectorizer_path}")
 
 if __name__ == "__main__":
-    train_and_save_models('data/processed/spam_data_processed.csv', 'models/')
+    train_and_save_models('../data/processed/spam_data_processed.csv', '../models/')
