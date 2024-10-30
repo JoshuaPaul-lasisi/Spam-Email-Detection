@@ -1,7 +1,7 @@
 Ensemble Model Evaluation Results
 ========================================
 Accuracy: 0.9686
-Runtime: 5.34 seconds
+Runtime: 6.54 seconds
 
 Confusion Matrix:
 [[951   0]
